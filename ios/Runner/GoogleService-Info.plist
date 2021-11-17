@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>89761041945-un75j4q23cc2mq8kmm2po35ldftl7ss0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.89761041945-un75j4q23cc2mq8kmm2po35ldftl7ss0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQ6aY43rpnkUnV0VO20AwM39Ux3q8WvgU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>89761041945</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterApplication1</string>
+	<key>PROJECT_ID</key>
+	<string>mendoquenapp-309ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mendoquenapp-309ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:89761041945:ios:a6e9d3695e51c962cb6488</string>
+</dict>
+</plist>

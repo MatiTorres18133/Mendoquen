@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "89761041945",
+    "project_id": "mendoquenapp-309ab",
+    "storage_bucket": "mendoquenapp-309ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89761041945:android:f336a34d73369304cb6488",
+        "android_client_info": {
+          "package_name": "ar.com.init.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89761041945-qcaulcijfi0egu78ofn406ujfmb2hp4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFo5Ob4uhubZNpl6A2Aiq2FSTZ82mWNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89761041945-qcaulcijfi0egu78ofn406ujfmb2hp4i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "89761041945-un75j4q23cc2mq8kmm2po35ldftl7ss0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
