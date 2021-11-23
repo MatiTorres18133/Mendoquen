@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Login/Model/UserModel.dart';
 import 'package:flutter_application_1/Pages/Introduccion/onBoarding.dart';
-import 'package:flutter_application_1/models/user_models.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import '../Widget/Cards.dart';
 import '../Widget/Drawer.dart';
@@ -17,24 +17,26 @@ class App extends StatefulWidget {
 
 class _AppState extends State<App> {
   User? user = FirebaseAuth.instance.currentUser;
-  UserModel loggedInUser = UserModel();
+  userModel loggedInUser = userModel();
 
   @override
   void initState() {
     super.initState();
     FirebaseFirestore.instance
-        .collection("users")
+        .collection("usuarios")
         .doc(user!.uid)
         .get()
         .then((value) {
-      this.loggedInUser = UserModel.fromMap(value.data());
+      this.loggedInUser = userModel.fromMap(value.data());
       setState(() {});
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    // ignore: unused_local_variable
+    final _init = Firebase.initializeApp();
+    return MaterialApp(
       theme: ThemeData(
         primaryColor: Colors.indigo[900],
         floatingActionButtonTheme: FloatingActionButtonThemeData(

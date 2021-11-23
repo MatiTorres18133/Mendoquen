@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_1/Pages/Inicio_Sesion/Pantallas/LoginPage.dart';
+import 'package:flutter_application_1/Login/LoginPage.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:introduction_screen/introduction_screen.dart';
@@ -63,7 +63,7 @@ class OnBoarding extends StatelessWidget {
       );
 
   void goToHome(context) => Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => LoginScreen()),
+        MaterialPageRoute(builder: (_) => LoginPage()),
       );
 
   Widget buildImage(String path) =>

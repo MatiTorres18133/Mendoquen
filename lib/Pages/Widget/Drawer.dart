@@ -18,28 +18,9 @@ class MainDrawer extends StatelessWidget {
             child: Center(
               child: Column(
                 children: <Widget>[
-                  Container(
-                    width: 100,
-                    height: 100,
-                    margin: EdgeInsets.only(
-                      top: 30,
-                      bottom: 10,
-                    ),
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      image: DecorationImage(
-                          image: AssetImage("assets/perfil.png"),
-                          fit: BoxFit.fill),
-                    ),
-                  ),
-                  Text(
-                    "mati",
-                    style: TextStyle(fontSize: 22, color: Colors.white),
-                  ),
-                  Text(
-                    "mati",
-                    style: TextStyle(color: Colors.white),
-                  )
+                  CircleAvatar(),
+                  Text("sasdasd"),
+                  Text("asdasd")
                 ],
               ),
             ),

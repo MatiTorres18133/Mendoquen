@@ -1,41 +1,42 @@
 {
   "project_info": {
-    "project_number": "89761041945",
-    "project_id": "mendoquenapp-309ab",
-    "storage_bucket": "mendoquenapp-309ab.appspot.com"
+    "project_number": "961789089616",
+    "project_id": "mendoquenapp-270b9",
+    "storage_bucket": "mendoquenapp-270b9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:89761041945:android:f336a34d73369304cb6488",
+        "mobilesdk_app_id": "1:961789089616:android:db9cd16b6680d651773e55",
         "android_client_info": {
           "package_name": "ar.com.init.flutter_application_1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "89761041945-qcaulcijfi0egu78ofn406ujfmb2hp4i.apps.googleusercontent.com",
+          "client_id": "961789089616-siognbfhukt4mlfeqsp5p0agh33d0ad3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.com.init.flutter_application_1",
+            "certificate_hash": "3243fd7e1bb791d4c993fb25e2de9d97bc291084"
+          }
+        },
+        {
+          "client_id": "961789089616-4fja1dqeoaadrra96hkpskc9802ftpol.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCyFo5Ob4uhubZNpl6A2Aiq2FSTZ82mWNk"
+          "current_key": "AIzaSyCXg09xpLPTsjrrF7Wr_dx0Yt94-gY3HtE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "89761041945-qcaulcijfi0egu78ofn406ujfmb2hp4i.apps.googleusercontent.com",
+              "client_id": "961789089616-4fja1dqeoaadrra96hkpskc9802ftpol.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "89761041945-un75j4q23cc2mq8kmm2po35ldftl7ss0.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.flutterApplication1"
-              }
             }
           ]
         }
